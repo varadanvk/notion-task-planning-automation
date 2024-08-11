@@ -45,10 +45,10 @@ class Planner:
                 # This is a task to be scheduled
                 due_date = self.parse_datetime(event['Due_date'])
                 start = due_date
-                end = due_date + timedelta(hours=1)  # Assume 1 hour duration if not specified
+                end = due_date + timedelta(hours=1)  
                 summary = event['Name']
             else:
-                continue  # Skip events that don't match either format
+                continue  
 
             event_prompt += f"- {summary} from {start.strftime('%Y-%m-%d %H:%M %Z')} to {end.strftime('%Y-%m-%d %H:%M %Z')}\n"
         
@@ -82,7 +82,7 @@ class Planner:
             """
             
             response = self.client.chat.completions.create(
-                    model="gpt-4o",  # Make sure this is the correct model name
+                    model="gpt-4o",  
                     messages=[
                         {"role": "system", "content": "You are a helpful AI assistant that creates a schedule for the user based on their time and availability. Respond with a JSON object for a single calendar event with fields: title, start, end, and description."},
                         {"role": "assistant", "content": calendar_context},
@@ -120,7 +120,6 @@ class Planner:
                 },
             }
             
-            # Extract location if it's in the description
             location_start = event['description'].find("LOCATION:")
             if location_start != -1:
                 location_end = event['description'].find(",", location_start)

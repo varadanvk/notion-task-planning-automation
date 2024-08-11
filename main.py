@@ -54,11 +54,11 @@ def main():
         with open('calendar_events.json', 'w') as f:
             json.dump(parsed_planned_events, f, indent=2)
 
-        # Here you would typically call a method to add these events to Google Calendar
-        # For example: added_events = calendar.add_events(planned_events)
+        # Add events to calendar
+        calendar.add_events(parsed_planned_events)
+
     except Exception as e:
         print(f"Error creating calendar events: {str(e)}")
         
-    calendar.add_events(parsed_planned_events)
         
 main()
