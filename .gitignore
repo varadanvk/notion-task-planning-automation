@@ -1,0 +1,4 @@
+.env
+scheduler
+credentials.json
+token.json
