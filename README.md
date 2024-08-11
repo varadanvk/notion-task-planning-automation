@@ -24,8 +24,8 @@ Before you begin, ensure you have met the following requirements:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/ai-scheduler.git
-   cd ai-scheduler
+   https://github.com/varadanvk/notion-task-planning-automation.git
+   cd notion-task-planning-automation
    ```
 
 2. Install the required dependencies:
@@ -44,7 +44,6 @@ Before you begin, ensure you have met the following requirements:
      OPENAI_API_KEY=your_openai_api_key
      NOTION_DATABASE_ID=your_notion_db
      CALENDAR_ACCOUNT=calendar_account_you_use
-
      ```
 
 4. Set up Google Calendar API:
