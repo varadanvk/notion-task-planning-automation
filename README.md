@@ -95,6 +95,125 @@ Contributions to the AI Scheduler project are welcome. Please follow these steps
 5. Push to the branch (`git push origin feature/amazing-feature`)
 6. Open a Pull Request
 
+Future Development Plan
+
+1. Cloud Hosting
+   1.1 Set up cloud infrastructure
+
+   Choose a cloud provider (e.g., AWS, Google Cloud, or Azure)
+   Set up a virtual machine or serverless environment
+   Configure necessary security groups and access controls
+
+   1.2 Implement efficient update mechanism
+
+   Develop a method to track the last processed task
+
+   Store last processed task ID in a database or file
+   Implement comparison logic to identify new tasks
+
+   Modify main script to only process new or updated tasks
+
+   Update Notion API queries to filter for new/updated tasks
+   Implement differential update logic in the planner
+
+   1.3 Implement selective scheduling
+
+   Modify the planner to handle individual task scheduling
+
+   Update create_calendar_events method to accept a single task
+   Implement logic to merge new event with existing schedule
+
+   1.4 Set up automated running
+
+   Implement a cron job or scheduled task to run the script periodically
+   Set up logging to track script executions and any errors
+
+   2. Improve AI Responses
+      2.1 Enhance conflict avoidance
+
+   Modify the prompt to emphasize the importance of avoiding conflicts
+   Implement a post-processing step to double-check for conflicts
+
+   Develop a function to detect overlaps between events
+   Implement a resolution strategy for any detected conflicts
+
+   2.2 Ensure future scheduling
+
+   Add a pre-processing step to filter out past dates
+   Modify the prompt to explicitly require future dates
+   Implement a post-processing step to verify all generated events are in the future
+
+   2.3 Optimize time slot selection
+
+   Analyze user's typical schedule to identify preferred time slots
+   Modify the prompt to include preferred time slots for different task types
+   Implement a scoring system for generated schedules to optimize task placement
+
+   3. Develop Frontend
+      3.1 Design user interface
+
+   Create wireframes for key pages (dashboard, task list, calendar view)
+   Design a cohesive visual style and color scheme
+
+   3.2 Implement frontend framework
+
+   Choose a frontend framework (e.g., React, Vue.js, or Angular)
+   Set up the project structure and build pipeline
+   Implement responsive design for mobile and desktop views
+
+   3.3 Develop key components
+
+   Create a dashboard component to display upcoming tasks and events
+   Implement a task list component with filtering and sorting capabilities
+   Develop a calendar view component to visualize scheduled tasks and events
+
+   3.4 Integrate with backend
+
+   Implement API calls to fetch data from the backend
+   Develop real-time updates using WebSockets or polling
+   Implement error handling and loading states
+
+   3.5 Implement user authentication
+
+   Set up user registration and login system
+   Implement OAuth for Notion and Google Calendar
+   Develop user profile management features
+
+   4. Testing and Quality Assurance
+      4.1 Develop automated tests
+
+   Write unit tests for critical functions in each module
+   Implement integration tests for the entire scheduling pipeline
+   Develop end-to-end tests for the frontend
+
+   4.2 Perform manual testing
+
+   Create a test plan covering various use cases
+   Conduct usability testing with a small group of users
+   Document and address any identified issues or user feedback
+
+   5. Documentation and Deployment
+      5.1 Update documentation
+
+   Revise the README with new features and setup instructions
+   Create user documentation explaining how to use the system
+   Develop API documentation for backend endpoints
+
+   5.2 Prepare for deployment
+
+   Set up a staging environment for final testing
+   Develop a deployment script for easy updates
+   Create a rollback plan in case of deployment issues
+
+   5.3 Launch and monitor
+
+   Deploy the application to the production environment
+   Set up monitoring and alerting for critical system components
+   Develop a plan for ongoing maintenance and updates
+
+   Contributing
+   We welcome contributions to help achieve the goals outlined in our development plan. If you're interested in working on any of these tasks, please check our CONTRIBUTING.md file for guidelines on how to get started.
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.

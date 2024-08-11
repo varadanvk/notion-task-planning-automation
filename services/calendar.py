@@ -25,7 +25,7 @@ class CalendarService:
         :param events: List of event dictionaries or JSON string
         :return: List of parsed event dictionaries
         """
-        # If events is a string, try to parse it as JSON
+        # JSON debugging
         if isinstance(events, str):
             try:
                 events = json.loads(events)
@@ -33,7 +33,7 @@ class CalendarService:
                 print("Error: Failed to parse events as JSON")
                 return []
 
-        # If events is not a list after JSON parsing, wrap it in a list
+        # wrap json in a list if it's not already a list
         if not isinstance(events, list):
             events = [events]
         
