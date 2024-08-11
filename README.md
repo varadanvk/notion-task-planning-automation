@@ -38,9 +38,8 @@ Before you begin, ensure you have met the following requirements:
 3. Set up Notion Integrations:
    - Check out [this link](https://developers.notion.com/docs/create-a-notion-integration) on how to do that)
    - This is the [Task Database Schema](https://varadankalkunte.notion.site/e24d5164b78a417a95515759ccc31663?v=ef26c66dc99f4579999ccdaaed801e80&pvs=4)
-   - 
 
-3. Set up your environment variables:
+4. Set up your environment variables:
 
    - Create a `.env` file in the project root
    - Add the following variables:
@@ -52,7 +51,7 @@ Before you begin, ensure you have met the following requirements:
      CALENDAR_ACCOUNT=calendar_account_you_use
      ```
 
-4. Set up Google Calendar API:
+5. Set up Google Calendar API:
    - Follow the [Google Calendar API Python Quickstart](https://developers.google.com/calendar/quickstart/python) to enable the API and download your `credentials.json` file
    - Place the `credentials.json` file in the project root
 
