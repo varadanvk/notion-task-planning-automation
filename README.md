@@ -32,7 +32,13 @@ Before you begin, ensure you have met the following requirements:
 
    ```
    pip install -r requirements.txt
+
    ```
+
+3. Set up Notion Integrations:
+   - Check out [this link](https://developers.notion.com/docs/create-a-notion-integration) on how to do that)
+   - This is the [Task Database Schema](https://varadankalkunte.notion.site/e24d5164b78a417a95515759ccc31663?v=ef26c66dc99f4579999ccdaaed801e80&pvs=4)
+   - 
 
 3. Set up your environment variables:
 
