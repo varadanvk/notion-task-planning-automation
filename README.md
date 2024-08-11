@@ -179,7 +179,7 @@ Before you begin, ensure you have met the following requirements:
 
 #### 1.2 Implement efficient update mechanism
 
-- [] Develop a method to track the last processed task
+- [ ] Develop a method to track the last processed task
   - [ ] Store last processed task ID in a database or file
   - [ ] Implement comparison logic to identify new tasks
 - [ ] Modify main script to only process new or updated tasks
