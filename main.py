@@ -12,7 +12,7 @@ def query_database(database_id: str, statuses: List[str]) -> Dict[str, Any]:
     ndm = NotionDatabaseManager(database_id)
     results = ndm.get_tasks_by_status(statuses)
     print(json.dumps(results, indent=2))
-    ndm.save_results_to_file(results, 'notion_results.json')
+    ndm.save_results_to_file(results, 'outputs/notion_results.json') #Can be removed
     return results
     
 def main():
@@ -73,7 +73,7 @@ def main():
         print(json.dumps(parsed_planned_events, indent=2))
         
         # Save calendar events to file
-        with open('calendar_events.json', 'w') as f:
+        with open('outputs/calendar_events.json', 'w') as f: # Can be removed
             json.dump(parsed_planned_events, f, indent=2)
 
         # Add events to calendar

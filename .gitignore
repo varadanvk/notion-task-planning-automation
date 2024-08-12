@@ -4,3 +4,4 @@ credentials.json
 token.json
 services/__pycache__
 scheduler
+outputs
