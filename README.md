@@ -36,6 +36,7 @@ Before you begin, ensure you have met the following requirements:
    ```
 
 3. Set up Notion Integrations:
+
    - Check out [this link](https://developers.notion.com/docs/create-a-notion-integration) on how to do that)
    - This is the [Task Database Schema](https://varadankalkunte.notion.site/e24d5164b78a417a95515759ccc31663?v=ef26c66dc99f4579999ccdaaed801e80&pvs=4)
 
@@ -201,7 +202,7 @@ Before you begin, ensure you have met the following requirements:
 
 #### 2.1 Enhance conflict avoidance
 
-- [ ] Modify the prompt to emphasize the importance of avoiding conflicts
+- [x] Modify the prompt to emphasize the importance of avoiding conflicts
 - [ ] Implement a post-processing step to double-check for conflicts
   - [ ] Develop a function to detect overlaps between events
   - [ ] Implement a resolution strategy for any detected conflicts
@@ -209,7 +210,7 @@ Before you begin, ensure you have met the following requirements:
 #### 2.2 Ensure future scheduling
 
 - [ ] Add a pre-processing step to filter out past dates
-- [ ] Modify the prompt to explicitly require future dates
+- [x] Modify the prompt to explicitly require future dates
 - [ ] Implement a post-processing step to verify all generated events are in the future
 
 #### 2.3 Optimize time slot selection
@@ -267,7 +268,7 @@ Before you begin, ensure you have met the following requirements:
 
 #### 5.1 Update documentation
 
-- [ ] Revise the README with new features and setup instructions
+- [x] Revise the README with new features and setup instructions
 - [ ] Create user documentation explaining how to use the system
 - [ ] Develop API documentation for backend endpoints
 
