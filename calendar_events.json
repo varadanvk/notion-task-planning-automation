@@ -1,0 +1,152 @@
+[
+  {
+    "summary": "Create a pipeline for 3D image segmentation",
+    "description": "ACTIVITY: Stanford Internship, PRIORITY: Medium, DUE DATE: 2024-08-17, ESTIMATED TIME: 2 hours, URL: https://www.notion.so/Create-a-pipeline-for-3D-image-segmentation-f01ec5b3930944caa3f3a8235b23ca71",
+    "start": {
+      "dateTime": "2024-08-11T17:18:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-11T19:18:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  },
+  {
+    "summary": "Student Intro + Syllabus",
+    "description": "ACTIVITY: AP Physics, PRIORITY: Low, DUE DATE: 2024-08-12, ESTIMATED TIME: 20 mins, URL: https://www.notion.so/Student-Intro-Syllabus-4aa5798204c64ef2a1135bc796737928",
+    "start": {
+      "dateTime": "2024-08-11T17:30:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-11T17:50:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  },
+  {
+    "summary": "Student Intro and Contract",
+    "description": "ACTIVITY: AP Gov/Macro, PRIORITY: Low, DUE DATE: 2024-08-12, ESTIMATED TIME: 20 mins, URL: https://www.notion.so/Student-Intro-and-Contract-6b75b869a7dd4873bd898a71f33d3be1",
+    "start": {
+      "dateTime": "2024-08-12T18:15:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-12T18:35:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  },
+  {
+    "summary": "Get a lock for PE (or buy one)",
+    "description": "ACTIVITY: Weight Training, PRIORITY: Medium, DUE DATE: 2024-08-12, ESTIMATED TIME: , URL: https://www.notion.so/Get-a-lock-for-PE-or-buy-one-099dbdbba0b24d5c9778930518a895ac",
+    "start": {
+      "dateTime": "2024-08-12T06:00:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-12T06:15:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  },
+  {
+    "summary": "Fill out Modal Form",
+    "description": "ACTIVITY: Gatekeep, PRIORITY: Medium, DUE DATE: 2024-08-13, ESTIMATED TIME: 20 mins, URL: https://www.notion.so/Fill-out-Modal-Form-1e5509a57fb54c5f80d30ac657a2acb6",
+    "start": {
+      "dateTime": "2024-08-12T18:15:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-12T18:35:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  },
+  {
+    "summary": "Finish CAPP Draft",
+    "description": "ACTIVITY: College Apps, PRIORITY: ASAP, DUE DATE: 2024-08-11, ESTIMATED TIME: 3 hrs, URL: https://www.notion.so/Finish-CAPP-Draft-64dc911aa54a4e379831a61f2f8da970",
+    "start": {
+      "dateTime": "2024-08-12T16:00:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "end": {
+      "dateTime": "2024-08-12T19:00:00Z",
+      "timeZone": "America/Los_Angeles"
+    },
+    "reminders": {
+      "useDefault": false,
+      "overrides": [
+        {
+          "method": "email",
+          "minutes": 1440
+        },
+        {
+          "method": "popup",
+          "minutes": 10
+        }
+      ]
+    }
+  }
+]
