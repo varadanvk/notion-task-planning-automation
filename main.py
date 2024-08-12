@@ -51,7 +51,7 @@ def main():
         parsed_upcoming_events = []
         
     # Convert Notion tasks to calendar events, considering existing events
-    if(1+1==2):
+    if(1+1==2): #TODO: switch to try-except
         if not parsed_tasks:
             print("No tasks to plan")
         elif not parsed_upcoming_events:
