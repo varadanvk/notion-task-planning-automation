@@ -99,16 +99,6 @@ Contributions to the AI Scheduler project are welcome. Please follow these steps
 5. Push to the branch (`git push origin feature/amazing-feature`)
 6. Open a Pull Request
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Acknowledgements
-
-- OpenAI for providing the GPT model used in task planning
-- Notion for their API
-- Google for the Calendar API
-
 ## Future Development Plan
 
 ### 1. Cloud Hosting
